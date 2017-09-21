@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>        
+        .image_back {
+            background-image: url(images/a.jpg);
+        }
+        #div2 {
+            width: 100%;
+            height: 200px;
+            background-image: url(images/a.jpg);
+            background-repeat: repeat-x;
+            background-repeat: no-repeat;
+        }
+        #div3 {
+            background-position: center;
+            background-position: right 14px left 12px;
+            width: 100%;
+            height: 500px;
+            background-image: url(images/a.jpg);
+            background-repeat: no-repeat;
+            
+        }
+    </style>
+</head>
+<body>
+    <!--Rożnica pomiędzy przeźroczystością w rgba a opacity jest taka, że w rgba rozjaśnia nam tło a czcionka nadal pozostaje bez zmian, w przypadku
+        opacity wszystkie elementy które znajdują się wewnątrz dziedziczą tę wartość.-->
+    <div id="div">
+        <p>
+            &nbsp;Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse
+            <br />a pellentesque dui, non felis. Maecenas malesuada elit lectus felis,
+            <br />malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta
+            <br />urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.
+            <br />Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet
+            <br />sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac
+            <br />turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam
+            <br />erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla
+            <br />sed, vestibulum id, eleifend justo vel bibendum sapien massa ac
+            <br />turpis faucibus orci luctus non, consectetuer lobortis quis, varius in,
+            <br />purus. Integer ultrices posuere cubilia Curae, Nulla ipsum dolor lacus,
+            <br />suscipit adipiscing. Cum sociis natoque penatibus et ultrices volutpat.
+            <br />Nullam wisi ultricies a, gravida vitae, dapibus risus ante sodales lectus
+            <br />blandit eu, tempor diam pede cursus vitae, ultricies eu, faucibus quis,
+            <br />porttitor eros cursus lectus, pellentesque eget, bibendum a, gravida
+            <br />ullamcorper quam.  Nullam viverra consectetuer. Quisque cursus et,
+            <br />porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan
+            <br />congue. Lorem ipsum primis in nibh vel risus. Sed vel lectus. Ut
+            <br />sagittis, ipsum dolor quam.
+        </p>
+    </div>
+    <div id="div1">
+
+    </div>
+    <br />
+
+    <div class="image_back">
+
+    </div>
+    <br />
+    <div id="div2"></div>
+    <br />
+    <div id="div3">
+
+    </div>
+</body>
+</html>

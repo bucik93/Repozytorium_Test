@@ -1,6 +1,0 @@
-Wiêkszoœæ z nas intuicyjnie wie, co t¹ s¹ dane osobowe. Jednak gdy zaczyna siê dyskusja o tym, czy adres e-mail, numer telefonu, 
-NIP, adres IP, itp. s¹ danymi osobowymi, pojawiaj¹ siê rozbie¿ne opinie.
-Skoro interesujesz siê ochron¹ danych osobowych, powinieneœ wpierw przeanalizowaæ ustawow¹ definicjê. Mo¿e ona trochê odbiegaæ od tego,
-co o danych osobowych mówimy “na wyczucie”. Przeanalizujmy zatem to, jak dane osobowe definiuje Ustawa o ochronie danych osobowych 
-(dalej równie¿ UODO lub Ustawa). Ustawow¹ definicjê danych osobowych znajdziemy w artykule 6. PrzeœledŸmy jego zapisy.
-bbba

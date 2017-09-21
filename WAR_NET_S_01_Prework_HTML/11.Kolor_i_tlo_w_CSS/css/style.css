@@ -1,0 +1,30 @@
+#div {
+	background-color: rgba(96, 96, 96, 0.4);
+	//opacity: 0.4;
+}
+#div1 {
+	background-color: #75bdd1;
+	background-image:
+	linear-gradient(180deg, #49a5bf,  #75bdd1);
+	width: 200px;
+	height: 200px;
+}
+.image_back {
+	
+	background-image:url(images/a.jpg);
+	width: 400px;
+	height: 267px;
+}
+#div2 {
+	width: 100%;
+	height: 200px;
+	background-image:url(images/a.jpg);
+}
+#div3 {
+    background-position: center;
+	background-position: right 14px left 12px;
+    width: 100%;
+    height: 500px;
+    background-image: url(images/a.jpg);
+    background-repeat: no-repeat;
+}

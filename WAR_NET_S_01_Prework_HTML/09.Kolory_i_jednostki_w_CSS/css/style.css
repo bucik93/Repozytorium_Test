@@ -1,0 +1,26 @@
+#one {
+	background-color: #00FF00;
+}
+#two {
+	background-color: #FF00FF;
+}
+#three {
+	background-color: #FFFF00;
+}
+#four {
+	background-color: rgba(47, 79, 79, 0.25);
+}
+#five {
+	background-color: rgba(39, 61, 83, 0.25);
+}
+#six {
+	background-color: hsl(0, 100%, 25%);
+}
+p.block1 {
+	background-color: #fad722;
+	width: 50%;
+}
+p.block2 {
+	background-color: #40b0b5;
+	width: 20%;
+}

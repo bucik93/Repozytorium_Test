@@ -1,0 +1,43 @@
+#menu {
+     text-align: left;
+     overflow: hidden;
+}
+
+ul#menu li {
+     list-style-type: none;
+     float: left;
+     margin-left: 3px;	 
+}
+
+ul#menu li:hover {
+     list-style-type: none;
+     float: left;
+     margin-left: 3px;	 
+}
+
+ul#menu li a {
+     display : block;
+     padding : 4pt;
+     text-decoration : none;
+	 color: #116493;
+}
+
+ul#menu li li a {
+     width: 300px; 
+}
+
+ul#menu li li:hover {
+     background: white;	 
+}
+
+ul#menu li ul {
+     overflow: hidden;
+     display: none;	 
+}
+
+ul#menu li:hover ul {
+     position: absolute;
+     padding: 0;
+     display: block;
+     width: 250px;
+}

@@ -1,0 +1,21 @@
+a {
+	color: red; border: 1px solid red; width: 500px;
+}
+
+u {
+	color: red; border: 1px solid red; width: 500px;
+}
+
+table {
+    border: 1px solid #000;
+}
+td {
+    border: 1px solid #000;
+            
+}
+thead {
+    border: 1px solid #000;
+}
+th {
+    border: 1px solid #000;
+}

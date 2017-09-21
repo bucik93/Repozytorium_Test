@@ -1,0 +1,39 @@
+#child1 {
+	border: 1px dashed black;
+	background-color: gray;
+	width: 49%;
+	height: 50px;
+	float: left;
+}
+#child2 {
+	border: 1px dashed black;
+	background-color: gray;
+	width: 49%;
+	height: 50px;
+	float: right;
+}
+
+#child3 {
+	border: 1px dashed black;
+	background-color: gray;
+	width: 49%;
+	height: 50px;
+	float: left;
+}
+#child4 {
+	border: 1px dashed black;
+	background-color: gray;
+	width: 49%;
+	height: 50px;
+	float: right;
+}
+
+#child5 {
+	border: 1px dashed black;
+	background-color: white;
+	width: 856px;
+	height: 215px;
+	float: left;
+	font color: silver;
+	font-size: 36px;
+}

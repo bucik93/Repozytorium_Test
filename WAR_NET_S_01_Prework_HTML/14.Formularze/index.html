@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+      input[type=text]{
+          width: 40%;   
+          margin: 6px 0;
+          outline: none;
+          padding: 6px;
+      }
+      #Button1 {
+          padding: 5px;
+          width: 9%;
+      }
+      #Button2 {
+            padding: 1px;
+            width: 9%;
+      }
+    </style>
+</head>
+<body>    
+    <form>
+        <font size="5"><label><font color="gray"><b>Your Name:</b></font><br /><input outline="none" size="73" id="Text1" type="text" placeholder="Your name" /></label></font><br />
+        <font size="5"><label><font color="gray"><b>Your E-mail Address:</b></font><br /><input size="73" id="Text1" type="text" placeholder="Your e-mail" /></label></font><br />
+        <font size="5"><label><font color="gray"><b>Your message:</b></font><br /><textarea cols="75" rows="8" id="TextArea1" placeholder="Please describe your question or comment"></textarea></label></font><br />
+        <br /><input id="Button1" type="button" value="Send" />
+    </form>
+    <br />
+    <br />
+    <form>
+        <font size="6"><label><b>Run your inteligent robo-car</b></label></font><br />
+        <br /><font size="5"><label><b>Select Country</b></label></font><br /><br />
+        <label><input type="checkbox" checked />Poland:</label>        
+        <label><input type="checkbox" />US:</label>
+        <label><input type="checkbox" />San Marino:</label><br />
+        <br /><font size="5"><label><b>Select Car</b></label></font><br /><br />
+        <label><input type="radio" checked />BMW:</label>  
+        <label><input type="radio" />Jaguar:</label><br />
+        <br /><font size="5"><label><b>When?</b></label></font><br /><br />
+        <label><font size="4"><font color="gray">Date: </font><input type="date" value="dd.mm.rrrr" /></font></label><br />
+        <br /><font size="5"><label><b>Start engine.</b></label></font><br /><br />
+        <label><font size="4"><font color="gray">Enter password*:<input type="password" /></font></font></label><br /><br /><br />
+        <input id="Button2" type="button" value="RUN YOUR CAR" />
+    </form>
+</body>
+</html>
